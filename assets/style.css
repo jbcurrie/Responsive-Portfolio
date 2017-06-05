@@ -252,7 +252,7 @@ a {
 
 @media only screen and (max-width: 980px) {
 	
-	#container {
+	#container, #clearfix, header, footer {
 	width:947px;
 	}
 
@@ -278,8 +278,12 @@ a {
 
 @media only screen and (max-width: 768px) {
 
-	#container {
+	#container, #clearfix, header, footer {
 		width:735px;
+		padding: 0% 0%;
+	}
+
+	#container {
 		padding: 0% 2%;
 	}
 
@@ -337,9 +341,14 @@ a {
 
 @media only screen and (max-width: 640px) {
 
-	#container {
+	#container, #clearfix, header, footer {
 		width:607px;
 	}
+
+	/*#container {
+	padding: 0% 0%;
+	}*/
+
 
 	header {
 		position:static
