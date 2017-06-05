@@ -339,7 +339,7 @@ a {
 	}
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) and (orientation:portrait) {
 
 	#container, #clearfix, header, footer,body {
 		width:auto;
