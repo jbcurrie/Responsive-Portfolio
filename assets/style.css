@@ -252,7 +252,7 @@ a {
 
 @media only screen and (max-width: 980px) {
 	
-	#container, #clearfix, header, footer {
+	#container, #clearfix, header, footer,body {
 	width:947px;
 	}
 
@@ -278,7 +278,7 @@ a {
 
 @media only screen and (max-width: 768px) {
 
-	#container, #clearfix, header, footer {
+	#container, #clearfix, header, footer,body {
 		width:735px;
 		padding: 0% 0%;
 	}
@@ -339,9 +339,9 @@ a {
 	}
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) and (orientation: landscape) {
 
-	#container, #clearfix, header, footer {
+	#container, #clearfix, header, footer,body {
 		width:607px;
 	}
 
@@ -374,7 +374,7 @@ a {
 	}
 
 	div.nav.about,div.nav.portfolio, div.nav.contact {
-		padding: 0px 70px;
+		padding: 0% 12%;
 	}
 
 	.text {
