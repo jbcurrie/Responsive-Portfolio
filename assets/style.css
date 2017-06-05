@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/*html*/,body{
+html,body{
 	min-height:100%;
 	/*max-width: 960px; is the entire content area including borders for the header and footer?*/
 	position:relative;
@@ -253,7 +253,7 @@ a {
 @media only screen and (max-width: 980px) {
 	
 	#container, #clearfix, header, footer,body {
-	width:947px;
+	width:auto;
 	}
 
 	nav	{
@@ -279,7 +279,7 @@ a {
 @media only screen and (max-width: 768px) {
 
 	#container, #clearfix, header, footer,body {
-		width:735px;
+		width:auto;
 		padding: 0% 0%;
 	}
 
@@ -342,7 +342,7 @@ a {
 @media only screen and (max-width: 640px) and (orientation: landscape) {
 
 	#container, #clearfix, header, footer,body {
-		width:607px;
+		width:auto;
 	}
 
 	/*#container {
